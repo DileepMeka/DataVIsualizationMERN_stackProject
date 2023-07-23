@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    min-height: 100vh;
+}
+.all-files-container{
+    background-color: #d1dede;
+    margin: 100px 0;
+    height: 500px;
+    padding: 40px;
+    width: 500px;
+    overflow: auto;
+    border-radius: 10px;
+}
+.all-files-container div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.all-files-container div h1{
+    width: 300px;
+}

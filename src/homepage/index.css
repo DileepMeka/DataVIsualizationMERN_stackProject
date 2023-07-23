@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    background-image:linear-gradient(120deg, #a91b0d,#e3242b) ;
+    min-height: 100vh;
+    
+}
+.home{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #ffffff;
+    min-height: 100vh;
+}
+
+.home .link{
+    color: #ffffff;
+}
+.img-container{
+    background-image: url("https://res.cloudinary.com/dhrxxm585/image/upload/v1690095328/62155d4e670bcaed8e7bcc9b_Let_data_tell_a_story_blog_hero_smt9ht.png");
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+    margin: 50px;
+    border-radius: 30px ;
+    border: 1px solid #ffffff;
+    
+}
+img{
+    width: 100%;
+}
+.content-container{
+    margin: 50px;
+    background-color: #d1dede;
+    color: red;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+}
+button{
+    background-color: red;
+    border: 0;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin: 40px 20px;
+    color: #ffffff;
+}
+
+button:hover{
+    background-color: #ffffff;
+    color: red;
+}
+button .link{
+    text-decoration: none;
+}
